@@ -13,7 +13,7 @@ function App() {
       </main>
       <footer className="text-center">
         <small>
-        Open source code by <a href="https://github.com/AlexvonKarstedt/dictionary-project-app">Alexandra von Karstedt</a>
+        Open source code by <a href="https://github.com/AlexvonKarstedt/dictionary-project-app" target="_">Alexandra von Karstedt</a>
         </small>
       </footer>
     </div>
