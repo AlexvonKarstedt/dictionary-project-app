@@ -13,7 +13,7 @@ function App() {
       </header>
       <br />
       <main>
-        <Dictionary defaultKeyword="sunset"/>
+        <Dictionary defaultKeyword="Welcome"/>
       </main>
       <footer className="text-center">
         <small>
