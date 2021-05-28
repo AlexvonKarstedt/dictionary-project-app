@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
       <div className="container">
-        <img src={ShecodesLogo} className="App-logo"
-        alt="ShecodesLogo" className="img-fluid" />
+        <img src={ShecodesLogo}
+        alt="Shecodes" className="img-fluid" />
        </div>
       </header>
       <main>
