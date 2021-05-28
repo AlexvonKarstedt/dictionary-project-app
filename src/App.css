@@ -1,5 +1,18 @@
+body {
+    background: #f3e7ef;
+}
+
+a {
+    color: #b137a9;
+}
 .App-header {
-margin:30px 0;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.formControl {
+    display: block;
+    text-align: center;
 }
 
 .App-footer {
