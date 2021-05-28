@@ -1,15 +1,19 @@
 import './App.css';
 import Dictionary from './Dictionary'
+import ShecodesLogo from './ShecodesLogo.png' 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <div className="container">
+        <img src={ShecodesLogo} className="App-logo"
+        alt="logo" className="img-fluid" />
        </div>
       </header>
       <main>
         <Dictionary />
+        <a href="/" className="btn btn-primary shadow">Search</a>
       </main>
       <footer className="text-center">
         <small>
