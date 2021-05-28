@@ -6,7 +6,6 @@ if (props.synonyms) {
         {props.synonyms.map(function (synonyms, index) {
        return <li key={index}>{synonyms}</li>
         })}
-        
 </ul>
     );
 } else {
