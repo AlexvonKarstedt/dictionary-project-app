@@ -34,8 +34,9 @@ function load () {
 if (loaded) {
 return (<div className="Dictionary">
     <section>
+        <h1>Start typing your word...</h1>
     <form className="formControl" onSubmit={handleSubmit}> 
-        <input type="search" onChange={handleKeywordChange} placeholder="Ex: Sunset" autoFocus={true}/>
+        <input type="search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} autoFocus={true}/>
         <a href="/" className="btn btn-primary shadow">Search</a>
     </form>
     <div className="hint">

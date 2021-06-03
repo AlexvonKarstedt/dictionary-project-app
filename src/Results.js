@@ -8,20 +8,22 @@ export default function Results (props) {
         return (
             <div className="Results">
                 <section>
-                <h2 class="text-capitalize">{props.results.word}</h2>
-                    {props.results.phonetics.map(function (phonetic, index) {
+                <h2 className="text-capitalize">{props.results.word}</h2>
+                    <span className="text-capitalize">{props.results.phonetics.map(function (phonetic, index) {
                         return (
                         <div key={index}>
                             <Phonetic phonetic={phonetic} />
                         </div>
                         );
                     })}
+                    </span>
                     </section>
-                {props.results.meanings.map(function(meaning, index){   
+                    <span className="text-capitalize">{props.results.meanings.map(function(meaning, index){   
                    return <section key={index}>
                        <Meaning meaning={meaning} />
                        </section> 
                 })}
+                </span>
             </div>
         );
  } else {
